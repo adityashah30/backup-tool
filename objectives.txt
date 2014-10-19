@@ -1,0 +1,23 @@
+Backup_Application
+------------------
+
+Aim
+---
+The main objective of this application is to create an intelligent backup system.
+
+The Algorithm
+-------------
+1. Get path of "from" and "to" directories.
+2. Compare the names of the files and directories in both the directories
+3. List all new entries in "from" directory that are not present in "to" directory.
+4. For all the files with same name in "from" and "to" directories, compare the last modified date.
+5. If the last modified date in "from" directory is newer than that in "to" directory file, copy and replace that file.
+6. Do nothing is the last modified date is the same in both the directories.
+7. Apply the above procedure recursively to all the subdirectories present in the given directory.
+
+Notes
+-----
+1. The algorithm must be fault tolerant
+2. This means that in case, the algorithm was interrupted in the middle, it must be able to roll back the transaction.
+3. Next time, when the algorithm starts, it must be able to detect errors that might have taken place the last time the algorithm was run and must be able to rectify the error.
+4. Implement this via using a logging system.
