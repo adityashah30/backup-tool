@@ -1,0 +1,3 @@
+/media/aditya/Data and Entertainment/Data; /media/aditya/Data and Entertainment/Entertainment; /home/aditya
+/media/aditya/Aditya/Data; /media/aditya/Aditya/Entertainment; /media/aditya/Aditya/Linux Data
+/media/aditya/Data and Entertainment/Data/DC download; /home/aditya/bin
